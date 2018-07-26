@@ -1,3 +1,4 @@
+debian/.debhelper/
 debian/fake-httpd/
 debian/debhelper-build-stamp
 debian/fake-httpd.debhelper.log
