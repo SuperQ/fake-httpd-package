@@ -1,0 +1,16 @@
+Source: fake-httpd
+Section: httpd
+Priority: optional
+Maintainer: Ben Kochie <superq@gmail.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.8
+Vcs-Browser: https://github.com/SuperQ/fake-httpd
+Vcs-Git: https://github.com/SuperQ/fake-httpd-package.git
+Homepage: https://github.com/SuperQ/fake-httpd
+
+Package: fake-httpd
+Architecture: any
+Provides: httpd
+Description: A fake httpd server
+ A fake HTTP server to satify dependencies when a non-packaged http server is
+ in use.
